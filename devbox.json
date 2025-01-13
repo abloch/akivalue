@@ -7,6 +7,10 @@
     ],
     "scripts": {
       "up": [
+        "npx @11ty/eleventy --serve",
+      ],
+      "upc": [
+        "rm -rf _site",
         "npx @11ty/eleventy --serve"
       ]
     }
