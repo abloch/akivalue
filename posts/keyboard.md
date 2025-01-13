@@ -5,7 +5,7 @@ title: custom keyboards
 ___
 
 A few months ago I started feeling pain in my wrists
-f
+
 my work setup:
 ![my work setup](/img/work.jpg)
 
