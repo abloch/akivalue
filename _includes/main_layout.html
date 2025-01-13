@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{title}} </title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
-  </head>
-  <body>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">
-        {{title}}
-      </h1>
-      <p class="subtitle">
-        {{content}}
-      </p>
-    </div>
-  </section>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+  <link rel="stylesheet" href="/style.css">
+  <title>{{title}}</title>
+</head>
+<body>
+  <nav>
+    <a class="button" href="/">Home</a>
+    <a class="button" href="https://akivalue.omg.lol">About Me</a>
+    <a class="button" href="mailto:akivalue@omg.lol">Contact Me</a>
+  </nav>
+  <div>
+    <h1>
+      {{title | capitalize}}
+    </h1>
+    <article>
+      {{content}}
+    </article>
+  </div>
+</body>
 </html>

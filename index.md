@@ -1,8 +1,11 @@
 ---
-title: index
+title: akivalue
 layout: main_layout.html
 ---
 
-welcome to akivalue
-
-<a href="/home">posts</a>
+Welcome to my personal blog
+#### recent posts
+{% for post in collections.posts | head -%}
+- <a href={{post.url}}>{{post.data.title | capitalize}}</a>
+{% endfor %}
+<pre>{{ collections.posts}}</pre>
