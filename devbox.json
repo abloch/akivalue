@@ -7,7 +7,7 @@
     ],
     "scripts": {
       "up": [
-        "npx @11ty/eleventy --server"
+        "npx @11ty/eleventy --serve"
       ]
     }
   }
