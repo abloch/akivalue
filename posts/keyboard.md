@@ -41,7 +41,7 @@ When getting into the world of split mechanical keyboard one may feel a little o
 - [moErgo 80](https://www.moergo.com/collections/glove80-keyboards)
 - [dacty](https://bastardkb.com/dactyls/)
 - [charrybdis](https://bastardkb.com/charybdis/)
-- [dygma raise2]()  
+- [dygma raise2](https://dygma.com/products/dygma-raise-2)
 - [dygma defy](https://dygma.com/pages/defy) 
 
 All these modls are solid-yet pricey choices that each comes with its own pros and cons
