@@ -10,5 +10,8 @@
   "description": "",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0"
+  },
+  "devDependencies": {
+    "htmlhint": "^1.1.4"
   }
 }
