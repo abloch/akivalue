@@ -9,3 +9,16 @@ h1 {
 footer {
     border-top: 0.5px dashed !important;
 }
+
+.sparse {
+    margin: 1%;
+}
+
+article {
+    margin-top: 4%;
+    margin-bottom: 10%;
+}
+.social-link {
+    margin: 8% !important;
+    text-decoration: none !important;
+    color: white !important;

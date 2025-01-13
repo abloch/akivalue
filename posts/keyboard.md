@@ -1,5 +1,7 @@
 ---
 title: custom keyboards
+tags:
+    - keyboard
 ---
 *disclaimer: all this is quite new to me, I'm in my first month with this setup*
 ___
