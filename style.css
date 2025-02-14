@@ -1,3 +1,8 @@
+address, article, aside, blockquote, canvas, dd, div, dl, fieldset, figcaption, figure, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, li, main, nav, noscript, ol, output, p, pre, section, table, tfoot, ul, video {
+    direction: rtl;
+    text-align: right;
+}
+
 h1 {
     text-align: center !important;
 }
@@ -6,8 +11,13 @@ h1 {
     float: right !important;
 }
 
-footer {
+.left {
+    float: left !important;
+}
+
+.center {
     border-top: 0.5px dashed !important;
+    text-align: center !important;
 }
 
 .sparse {
