@@ -28,6 +28,39 @@ article {
     margin-top: 4%;
     margin-bottom: 10%;
 }
+
+p {
+  margin: 0.8em;
+  margin-bottom: 0.2px !important;
+  margin-top: 0.2px !important;
+}
+
+li, ul {
+  margin-block-start: 0px;
+  margin: 0px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h3, h4 {
+  margin: 0.7em !important;
+}
+
+h5 {
+  margin: 0.3em !important;
+}
+
+h3, h4 {
+  padding-right: 10px !important;
+}
+
+h2, h3 {
+  margin: 20px !important;
+}
+
+
 .social-link {
     margin: 8% !important;
     text-decoration: none !important;
