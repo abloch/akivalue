@@ -1,4 +1,5 @@
 {
-    "layout": "main_layout",
-    "tags": "posts"
+    "layout": "heb_post_layout",
+    "tags": "posts",
+    "has_comments": true
 }

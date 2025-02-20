@@ -29,6 +29,12 @@ article {
     margin-bottom: 10%;
 }
 
+.narrow {
+  width: 50%;
+  text-align: center;
+  background-color: aqua;
+}
+
 p {
   margin: 0.8em;
   margin-bottom: 0.2px !important;
@@ -60,8 +66,8 @@ h2, h3 {
   margin: 20px !important;
 }
 
-
 .social-link {
     margin: 8% !important;
     text-decoration: none !important;
     color: white !important;
+}

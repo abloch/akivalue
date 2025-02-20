@@ -9,15 +9,22 @@
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/comments_heb.css">
+
   <title> {{ title }}</title>
 </head>
 
 <body>
   <nav>
-    <a class="button sparse" href="/"><i class="fa-solid fa-house"></i> עמוד הבית</a>
-    <a class="button sparse" href="https://akivalue.omg.lol"><i class="fa-solid fa-person"></i> אודות</a>
-    <a class="button sparse left" href="mailto:akivalue@omg.lol"><i class="fa-regular fa-envelope"></i> שלחו לי
-      אימייל</a>
+    <a class="button sparse" href="/">
+      <i class="fa-solid fa-house"></i> עמוד הבית
+    </a>
+    <a class="button sparse" href="https://akivalue.omg.lol">
+      <i class="fa-solid fa-person"></i> אודות
+    </a>
+    <a class="button sparse left" href="mailto:akivalue@omg.lol">
+      <i class="fa-regular fa-envelope"></i> שלחו לי אימייל
+    </a>
   </nav>
   <div>
     <article>
@@ -26,6 +33,11 @@
     </article>
   </div>
   <footer class="bottom">
+
+    {% if .has_comments %}
+    {% include "_includes/comments.html" %}
+    {% endif %}
+
     <p class="center">
       <a class="social-link" href="https://social.lol/@akivalue">
         <i class="fa-brands fa-mastodon"></i>
@@ -48,8 +60,6 @@
         Github</a>
       <i class="fa-brands fa-github"></i>
     </p>
-
-
   </footer>
 </body>
 

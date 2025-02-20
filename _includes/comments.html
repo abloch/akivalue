@@ -1,0 +1,35 @@
+<script type="module">
+
+    import CommentSystem from '/js/comments.js';
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyCNu6JyMGPhrbzBF79JWytVj9NZQAzrqdM",
+        authDomain: "akivalue-comments.firebaseapp.com",
+        projectId: "akivalue-comments",
+        storageBucket: "akivalue-comments.firebasestorage.app",
+        messagingSenderId: "1038993434198",
+        appId: "1:1038993434198:web:d9195d4d2c65337815fdf7"
+    };
+
+    new CommentSystem(firebaseConfig, 'commentForm', 'commentsList', "{{ title }}");
+</script>
+
+<div class="comment-form">
+    <h4>להשאיר תגובה</h4>
+    <form id="commentForm">
+        <div class="form-group">
+            <label for="name">שם:</label>
+            <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="comment">תגובה:</label>
+            <textarea id="comment" rows="4" required></textarea>
+        </div>
+        <button type="submit">שלח</button>
+    </form>
+</div>
+
+<div class="comments-section">
+    <h4>תגובות</h4>
+    <div id="commentsList"></div>
+</div>
