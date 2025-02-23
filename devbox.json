@@ -15,7 +15,8 @@
         "npx @11ty/eleventy --serve"
       ],
       "lint": [
-        "npx htmlhint \"**/*.html\""
+        "npx @11ty/eleventy",
+        "npx htmlhint \"_site/**/*.html\""
       ]
     }
   }
