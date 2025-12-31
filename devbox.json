@@ -7,10 +7,12 @@
     ],
     "scripts": {
       "up": [
+        "npm install",
         "rm -rf _site",
-        "npx @11ty/eleventy --serve",
+        "npx @11ty/eleventy --serve"
       ],
       "upc": [
+        "npm install",
         "rm -rf _site",
         "npx @11ty/eleventy --serve"
       ],
