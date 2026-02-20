@@ -34,6 +34,7 @@
 }
 
 input, textarea {
+  box-sizing: border-box;
   width: 94%;
   padding: 0.8rem;
   border: 1px solid #4d4d5d;
