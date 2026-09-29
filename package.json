@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
+    "up": "bash scripts/up.sh",
+    "upc": "bash scripts/upc.sh",
+    "lint": "bash scripts/lint.sh",
+    "docker:up": "bash scripts/docker-up.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
